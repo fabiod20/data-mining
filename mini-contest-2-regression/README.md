@@ -5,7 +5,7 @@ This repository contains the solution proposed for the second Mini-Contest of th
 The aim of the contest is to determine the Land Surface Temperature (LST) from satellite data, using data coming from the National Aeronautics and Space Administration (NASA) Landsat-8 missions <sup>[1](#footnote1)</sup>. You can find more about the competition [here](https://www.kaggle.com/c/unina-data-mining-2021-minicontest-n2/overview).
 
 ## Solution
-The solution shown in [mini-contest-2.ipynb](https://github.com/fabiod20/data-mining/blob/main/mini-contest-2-regression/mini-contest-3.ipynb), implemented by means of **scikit-learn**, is made up of tree different stages:
+The solution shown in [mini-contest-2.ipynb](https://github.com/fabiod20/data-mining/blob/main/mini-contest-2-regression/mini-contest-2.ipynb), implemented by means of **scikit-learn**, is made up of tree different stages:
 - **Feature engineering**: compute the main spectral indexes shown in the literature, such as *NDVI* and *PV*.
 - **Feature selection**: correlation-based and projection techniques, such as *Principal Component Analysis (PCA)*.
 - **Modeling**: compare several models, such as *Decision Tree*, *K-Nearest Neighbour (KNN)*, *Linear* and *Polynomial Regression*, *Ridge Regression*, *Support Vector Machine (SVM)* and *Multi Layer Perceptron*.
