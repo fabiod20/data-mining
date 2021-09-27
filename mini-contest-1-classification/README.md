@@ -5,7 +5,7 @@ This repository contains the solution proposed for the first Mini-Contest of the
 The contest aims at exploiting Machine Learning for Alzheimer's disease detection. The task is to determine whether a patient has or not the disease, by means of a machine learning model trained on some medical high-level information. You can find more about the competition [here](https://www.kaggle.com/c/unina-data-mining-2021-minicontest-n1/overview).
 
 ## Solution
-The solution shown in the Notebook, implemented by means of **scikit-learn**, is made up of two main stages:
+The solution shown in [mini-contest-1.ipynb](https://github.com/fabiod20/data-mining/blob/main/mini-contest-1-classification/mini-contest-1.ipynb), implemented by means of **scikit-learn**, is made up of two main stages:
 - **Preprocessing**: data cleaning and dealing with missing values.
 - **Modeling**: compare several models, such as *Decision Tree*, *K-Nearest Neighbour (KNN)*, *Logistic Regression*, *Support Vector Machine* and *Multi-Layer Perceptron (MLP)*.
 
